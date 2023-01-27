@@ -1,0 +1,16 @@
+<template>
+  <div class="bg-0 text-base-1 bg-fixed">
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
+  </div>
+</template>
+
+<script setup>
+useHead({
+  title: 'Конкурс IT-Pro',
+  link: [
+    { rel: 'manifest', href: '/manifest.json' }
+  ]
+})
+</script>
