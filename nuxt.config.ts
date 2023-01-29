@@ -14,13 +14,18 @@ export default defineNuxtConfig({
   pwa: {
     meta: {
       title: 'Конкурс',
-      author: 'M/D'
+      author: 'M/D',
+      description: 'Конкурс IT-Pro',
+      theme_color: '#000000',
+      lang: 'ru',
     },
     manifest: {
       name: 'IT-pro',
       short_name: 'IT-pro',
       description: 'Конкурс IT-Pro',
       lang: 'ru',
+      background_color: '#000000',
+      theme_color: '#000000'
     },
     icon: {
       fileName: 'android-chrome-512x512.png',
