@@ -9,8 +9,8 @@
 <script setup>
 useHead({
   title: 'Конкурс IT-Pro',
-  link: [
-    { rel: 'manifest', href: '/manifest.json' }
-  ]
+  // link: [
+  //   { rel: 'manifest', href: '/manifest.json' }
+  // ]
 })
 </script>
